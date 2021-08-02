@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>reset</class>
+ <widget class="QDialog" name="reset">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FORGOT PASSWORD</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="imagesrc.qrc">
+    <normaloff>:/image/batman.png</normaloff>:/image/batman.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#reset{
+border-image: url(:/image/change.PNG);
+}</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>60</y>
+     <width>501</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+border-radius : 10px;
+border : 4px solid transparent;;
+background: transparent;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+ font:bold;
+	border-bottom-color: rgb(0, 57, 84);
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>140</y>
+     <width>501</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+border-radius : 10px;
+border : 4px solid transparent;;
+background: transparent;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+ font:bold;
+	border-bottom-color: rgb(0, 57, 84);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>220</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border:none;
+	border-bottom-color: rgb(255, 255, 255);
+color:white;
+	
+	font: 14pt &quot;Arial&quot;;
+font:bold;
+border-radius : 13px;
+	background-color: qlineargradient(spread:reflect, x1:0.213, y1:0.210409, x2:0.910112, y2:0.869, stop:0.106742 rgba(0, 72, 107, 255), stop:0.41573 rgba(61, 129, 162, 255), stop:0.719101 rgba(119, 180, 210, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QPushButton:hover{
+background-color: qlineargradient(spread:reflect, x1:0.213, y1:0.210409, x2:0.910112, y2:0.869, stop:0.106742 rgba(0, 72, 130, 220), stop:0.41573 rgba(61, 110, 180, 255), stop:0.719101 rgba(119, 200, 210, 255), stop:1 rgba(255, 215, 235, 225));
+color:white;
+border:none;
+font:bold;
+}</string>
+   </property>
+   <property name="text">
+    <string>SUBMIT</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>220</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border:none;
+	border-bottom-color: rgb(255, 255, 255);
+color:white;
+	
+	font: 14pt &quot;Arial&quot;;
+font:bold;
+border-radius : 13px;
+	background-color: qlineargradient(spread:reflect, x1:0.213, y1:0.210409, x2:0.910112, y2:0.869, stop:0.106742 rgba(0, 72, 107, 255), stop:0.41573 rgba(61, 129, 162, 255), stop:0.719101 rgba(119, 180, 210, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QPushButton:hover{
+background-color: qlineargradient(spread:reflect, x1:0.213, y1:0.210409, x2:0.910112, y2:0.869, stop:0.106742 rgba(0, 72, 130, 220), stop:0.41573 rgba(61, 110, 180, 255), stop:0.719101 rgba(119, 200, 210, 255), stop:1 rgba(255, 215, 235, 225));
+color:white;
+border:none;
+font:bold;
+}</string>
+   </property>
+   <property name="text">
+    <string>RESET</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>270</y>
+     <width>581</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+font:bold;
+   color:white;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>430</y>
+     <width>411</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+border-radius : 10px;
+border : 4px solid transparent;;
+background: transparent;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+ font:bold;
+	border-bottom-color: rgb(0, 57, 84);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>500</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border:none;
+	border-bottom-color: rgb(255, 255, 255);
+color:white;
+	
+	font: 14pt &quot;Arial&quot;;
+font:bold;
+border-radius : 13px;
+	background-color: qlineargradient(spread:reflect, x1:0.213, y1:0.210409, x2:0.910112, y2:0.869, stop:0.106742 rgba(0, 72, 107, 255), stop:0.41573 rgba(61, 129, 162, 255), stop:0.719101 rgba(119, 180, 210, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QPushButton:hover{
+background-color: qlineargradient(spread:reflect, x1:0.213, y1:0.210409, x2:0.910112, y2:0.869, stop:0.106742 rgba(0, 72, 130, 220), stop:0.41573 rgba(61, 110, 180, 255), stop:0.719101 rgba(119, 200, 210, 255), stop:1 rgba(255, 215, 235, 225));
+color:white;
+border:none;
+font:bold;
+}</string>
+   </property>
+   <property name="text">
+    <string>UPDATE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>500</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border:none;
+	border-bottom-color: rgb(255, 255, 255);
+color:white;
+	
+	font: 14pt &quot;Arial&quot;;
+font:bold;
+border-radius : 13px;
+	background-color: qlineargradient(spread:reflect, x1:0.213, y1:0.210409, x2:0.910112, y2:0.869, stop:0.106742 rgba(0, 72, 107, 255), stop:0.41573 rgba(61, 129, 162, 255), stop:0.719101 rgba(119, 180, 210, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QPushButton:hover{
+background-color: qlineargradient(spread:reflect, x1:0.213, y1:0.210409, x2:0.910112, y2:0.869, stop:0.106742 rgba(0, 72, 130, 220), stop:0.41573 rgba(61, 110, 180, 255), stop:0.719101 rgba(119, 200, 210, 255), stop:1 rgba(255, 215, 235, 225));
+color:white;
+border:none;
+font:bold;
+}</string>
+   </property>
+   <property name="text">
+    <string>CLEAR</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>560</y>
+     <width>581</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+font:bold;
+   color:white;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="imagesrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

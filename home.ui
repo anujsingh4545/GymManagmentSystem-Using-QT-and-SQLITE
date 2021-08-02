@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>home</class>
+ <widget class="QDialog" name="home">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1400</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>HOME</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="imagesrc.qrc">
+    <normaloff>:/image/batman.png</normaloff>:/image/batman.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#home{
+border-image:url(:/image/homeset.PNG);
+}</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>40</y>
+     <width>80</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px solid transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>240</y>
+     <width>411</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+font:bold;
+border-radius : 10px;
+border : none;
+background:transparent;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>Enter weight in kg</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>340</y>
+     <width>411</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+font:bold;
+border-radius : 10px;
+border : none;
+background:transparent;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>Enter height in metre</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>450</y>
+     <width>191</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border:none;
+	border-bottom-color: rgb(255, 255, 255);
+color:white;
+	
+	font: 14pt &quot;Arial&quot;;
+font:bold;
+border-radius : 13px;
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(159, 24, 58, 255), stop:0.241573 rgba(203, 71, 104, 255), stop:0.668539 rgba(210, 122, 144, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QPushButton:hover{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(170, 24, 70, 255), stop:0.241573 rgba(210, 71, 124, 255), stop:0.668539 rgba(210, 122, 154, 230), stop:1 rgba(255, 255, 230, 222));
+color:white;
+border:none;
+font:bold;
+}</string>
+   </property>
+   <property name="text">
+    <string>SUBMIT</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>450</y>
+     <width>191</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border:none;
+	border-bottom-color: rgb(255, 255, 255);
+color:white;
+	
+	font: 14pt &quot;Arial&quot;;
+font:bold;
+border-radius : 13px;
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(159, 24, 58, 255), stop:0.241573 rgba(203, 71, 104, 255), stop:0.668539 rgba(210, 122, 144, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QPushButton:hover{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(170, 24, 70, 255), stop:0.241573 rgba(210, 71, 124, 255), stop:0.668539 rgba(210, 122, 154, 230), stop:1 rgba(255, 255, 230, 222));
+color:white;
+border:none;
+font:bold;
+}</string>
+   </property>
+   <property name="text">
+    <string>RESET</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>710</y>
+     <width>681</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+font:bold;
+   color:rgb(255, 255, 230);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>150</y>
+     <width>431</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	border:none;
+color:white;
+	
+	font: 24pt &quot;Arial&quot;;
+font:bold italic;
+border-radius : 13px;
+	background-color: transparent;
+
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>70</y>
+     <width>591</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#label{
+border-top-left-radius:100px;
+border-bottom-left-radius:100px;
+border:3px solid transparent;
+border-image: url(:/image/bg.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>160</y>
+     <width>591</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>40</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(0,0,0,90);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>150</y>
+     <width>531</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>35</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255, 255, 255,200);</string>
+   </property>
+   <property name="text">
+    <string>Welcome, </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>430</y>
+     <width>421</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border:none;
+	border-bottom-color: rgb(255, 255, 255);
+color:white;
+	
+	font: 14pt &quot;Arial&quot;;
+font:bold;
+border-radius : 20px;
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(159, 24, 58, 255), stop:0.241573 rgba(203, 71, 104, 255), stop:0.668539 rgba(210, 122, 144, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QPushButton:hover{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(170, 24, 70, 255), stop:0.241573 rgba(210, 71, 124, 255), stop:0.668539 rgba(210, 122, 154, 230), stop:1 rgba(255, 255, 230, 222));
+color:white;
+border:none;
+font:bold;
+}</string>
+   </property>
+   <property name="text">
+    <string>Registration Form</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>550</y>
+     <width>421</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border:none;
+	border-bottom-color: rgb(255, 255, 255);
+color:white;
+	
+	font: 14pt &quot;Arial&quot;;
+font:bold;
+border-radius : 20px;
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(159, 24, 58, 255), stop:0.241573 rgba(203, 71, 104, 255), stop:0.668539 rgba(210, 122, 144, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QPushButton:hover{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(170, 24, 70, 255), stop:0.241573 rgba(210, 71, 124, 255), stop:0.668539 rgba(210, 122, 154, 230), stop:1 rgba(255, 255, 230, 222));
+color:white;
+border:none;
+font:bold;
+}</string>
+   </property>
+   <property name="text">
+    <string>  Check Form History</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>240</y>
+     <width>251</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255, 255, 255,200);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="imagesrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

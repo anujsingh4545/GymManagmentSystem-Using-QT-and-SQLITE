@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>terms</class>
+ <widget class="QDialog" name="terms">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TERMS &amp; CONDITIONS</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="imagesrc.qrc">
+    <normaloff>:/image/batman.png</normaloff>:/image/batman.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#terms{
+
+background-color: qlineargradient(spread:reflect, x1:0.213, y1:0.210409, x2:0.910112, y2:0.869, stop:0.106742 rgba(0, 72, 107, 255), stop:0.41573 rgba(61, 129, 162, 255), stop:0.719101 rgba(119, 180, 210, 255), stop:1 rgba(255, 255, 255, 255));
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="styleSheet">
+      <string notr="true">QTextEdit{
+color:white;
+border:2px solid transparent;
+border-radius:70px;
+background:transparent;
+
+}</string>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; font-style:italic; color:#ff557f;&quot;&gt;KEY TERMS&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Open Sans'; font-size:12pt; font-weight:600; font-style:italic; color:#000000;&quot;&gt;“User” “you” or “your” means a person, organisation or entity using the Services and the App, including Clients and Fitness Professionals.&lt;br /&gt;“Client” means a person who completes buddee fitness account registration process to book a Fitness Professional.&lt;br /&gt;Fitness Professional” or “Fitness Service Provider” means a trainer who can provide the Exercise Services sought by the Client and who is accepted by buddee fitness to be offering Exercise Services via the App.&lt;br /&gt;“Exercise Service” “Training Session” or “Session” means the exercise-related services provided by Fitness Professionals to Clients.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; font-style:italic; color:#ff557f;&quot;&gt;GENERAL&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Open Sans'; font-size:12pt; font-weight:600; font-style:italic; color:#000000;&quot;&gt;By accessing, using and remaining on this App, and in consideration of buddee fitness providing you with access to this App, you agree to be bound by the following Terms of Use, which govern your access to and use of this App.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Open Sans'; font-size:12pt; font-weight:600; font-style:italic; color:#000000;&quot;&gt;If you do not agree to these Terms of Use, you must not use or access this App.Buddee fitness reserves the right to amend these Terms of Use from time to time.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; font-style:italic; color:#ff557f;&quot;&gt;INFORMATION ABOUT APP&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Open Sans'; font-size:12pt; font-weight:600; font-style:italic; color:#ffffff;&quot;&gt;T&lt;/span&gt;&lt;span style=&quot; font-family:'Open Sans'; font-size:12pt; font-weight:600; font-style:italic; color:#000000;&quot;&gt;his App allows individuals to search for, and engage with, Fitness Service Providers including by connecting you with personal trainers and products, and other services described on this App.&lt;br /&gt;Buddee fitness has prepared this App in good faith. Information on this App may be derived from third party sources.  Buddee fitness believes the information on this App is accurate and up to date; however buddee fitness makes no representation or warranty as to the accuracy or currency of the information.&lt;br /&gt;All prices quoted on the App are in Australian dollars and include GST, unless otherwise indicated. Prices quoted on the App should be used as a guide only as they may change from time to time.&lt;br /&gt;Buddee fitness may cease, interrupt or withdraw your access to the App for any reason, including for upgrades and maintenance of the App.&lt;br /&gt;This App includes services that are available via a mobile device. To the extent that you access the App through a mobile device, your wireless service carrier’s standard charges, data rates and other fees may apply. In addition, downloading, installing or using certain services may be prohibited or restricted by your carrier and not all services may work with all carriers or devices.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Open Sans'; font-size:12pt; font-weight:600; font-style:italic; color:#000000;&quot;&gt;Buddee fitness does not warrant that your access to the App will be uninterrupted or error free.&lt;br /&gt;To the fullest extent permitted by applicable law, buddee fitness does not accept liability for any claims or losses arising directly or indirectly from:a failure to provide the App, or any part thereof;&lt;br /&gt;corruptions to or loss of data, errors or interruptions occurring in the course of using, or as part of, the App;any suspension or discontinuance of any Service, or any part thereof; orany use of the App by other users, including any use of the App by other users in manner which contravenes this document.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; font-style:italic; color:#ff557f;&quot;&gt;WE MAY ASK YOU TO GET&lt;/span&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; font-style:italic; color:#000000;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; font-style:italic; color:#ff557f;&quot;&gt;ACCESS&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Open Sans'; font-size:12pt; font-weight:600; font-style:italic; color:#000000;&quot;&gt;Buddee fitness may require you to register in order to access certain features or services offered on or through the App (including setting up a user ID and password).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Open Sans'; font-size:12pt; font-weight:600; font-style:italic; color:#000000;&quot;&gt;Where you register with buddee fitness, you must keep your registration and login details confidential. You will be responsible for any access to and all activity that occurs under your account on the App using your registration details, even if the access is by another person, or as a result of your failing to keep this information secure and confidential.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Open Sans'; font-size:12pt; font-weight:600; font-style:italic; color:#000000;&quot;&gt;You must be 18 years old to register with Buddee Fitness.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="imagesrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

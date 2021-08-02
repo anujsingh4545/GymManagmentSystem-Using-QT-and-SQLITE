@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1400</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MAIN SETUP</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="imagesrc.qrc">
+    <normaloff>:/image/batman.png</normaloff>:/image/batman.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget{
+border-image: url(:/image/firsts.PNG);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>800</y>
+      <width>47</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_1">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>360</y>
+      <width>501</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 75 italic 25pt &quot;Calibri&quot;;
+   font :bold italic;
+   border:2px solid transparent;
+	color : white;
+	border-bottom-color: rgb(0, 139, 209);
+   padding-bottom:7px;
+   padding-top:7px;
+border-radius:25px;
+}
+QPushButton:hover{
+	border-bottom-color: white;
+   border-top-color: white;
+   color : rgb(0, 139, 209);
+font: 75 italic 28pt &quot;Calibri&quot;;
+   font:bold italic;
+}</string>
+    </property>
+    <property name="text">
+     <string>LOG-IN</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>500</y>
+      <width>501</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 75 italic 25pt &quot;Calibri&quot;;
+   font :bold italic;
+   border:2px solid transparent;
+	color : white;
+	border-bottom-color: rgb(0, 139, 209);
+   padding-bottom:7px;
+   padding-top:7px;
+border-radius:25px;
+}
+QPushButton:hover{
+	border-bottom-color: white;
+   border-top-color: white;
+   color : rgb(0, 139, 209);
+font: 75 italic 28pt &quot;Calibri&quot;;
+   font:bold italic;
+}</string>
+    </property>
+    <property name="text">
+     <string>SIGN-UP</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="imagesrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

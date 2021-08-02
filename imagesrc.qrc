@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>batman.png</file>
+        <file>moreabout.png</file>
+        <file>lo.PNG</file>
+        <file>seas.jpg</file>
+        <file>eye.PNG</file>
+        <file>firsts.PNG</file>
+        <file>change.PNG</file>
+        <file>terms.png</file>
+        <file>sent.PNG</file>
+        <file>sent2.PNG</file>
+        <file>nature.PNG</file>
+        <file>homeset.PNG</file>
+        <file>bg.png</file>
+        <file>about.PNG</file>
+        <file>1.PNG</file>
+        <file>2.PNG</file>
+        <file>3.PNG</file>
+        <file>4.PNG</file>
+        <file>5.PNG</file>
+        <file>6.PNG</file>
+        <file>details.PNG</file>
+        <file>set.PNG</file>
+        <file>refresh.png</file>
+    </qresource>
+    <qresource prefix="/images"/>
+</RCC>
