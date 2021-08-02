@@ -1,6 +1,8 @@
 # GymManagmentSystem-Using-QT-and-SQLITE
 A high end UI based Gym Management System made using QT and SQLite.
+
 Features:
+
 1: Password encryption in backend using ceaser cypher algorithm.
 2: Password and username validation.
 3: Highly backend fuctionality.
